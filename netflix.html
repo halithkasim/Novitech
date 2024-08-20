@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .banner{
+            color: aliceblue;
+            background-image: url(https://bloganchoi.com/wp-content/uploads/2021/09/money-heist-season-5.jpg);
+            background-repeat:repeat-x;
+            background-size: cover;
+            object-fit: contain;
+            height: 650px;
+            width: 100%;
+        }
+        body{
+            background-color: black;
+        }
+        .row-poster img{
+            height: 300px;
+            width: 200px;
+            margin-right: 10px;
+
+        }
+        .row-poster img:hover{
+            transform: scale(1.08);
+        }
+        h2{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .banner-content{
+            margin-left: 30px;
+        }
+        .banner-title{
+            font-size: 50px;
+            font-weight: 800;
+            padding-bottom: 15px;
+        }
+        .banner-description{
+            width: 45rem;
+            line-height: 1.4;
+            padding-top: 100px;
+            max-width: 350px;
+        }
+        .banner-button{
+            border-radius: 50%;
+            color: black;
+            
+        }
+        .banner-button:hover{
+            transform: scale(1.08);
+        }
+        header{
+            width: 100%;
+            height: 80px;
+            background-color: black;
+        }
+        .name .nav-logo{
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+        .name .nav-avatar{
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+        
+        .name{
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 30px;
+            background-color: black;
+        }
+        .text{
+            font-weight: bolder;
+            color: wheat;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .dx{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+         </style>
+</head>
+<body>
+    <header>
+        <div class="name">
+                <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\Couleur-logo-Netflix.jpg" class="nav-logo" style="width: 30px; height: 30px;">
+                <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\icon.png" class="nav-avatar" style="width: 30px; height: 30px;">
+        </div> 
+    </header>       
+    
+    <div class="banner">
+        <div class="banner-content">
+            <h2 class="banner-title">Money Heist</h2>
+        <div class="banner-button">
+            <button>Play</button>
+            <button>My List</button>
+        </div>
+         <div class="banner-description">
+            <p>
+                    The action film is a film genre that predominantly features chase sequences, fights, shootouts, explosions, and stunt work.
+                    The specifics of what constitutes an action film has been in scholarly debate since the 1980s.
+            </p>
+        </div>
+        </div>
+    </div>       
+    
+    <div class="row">
+        <h2 style="color: aliceblue;">Netflix</h2>
+        <div class="row-poster">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (1).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (2).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (3).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\FastX_Poster ARt.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters"> 
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters">
+        </div>
+    </div>
+    <div class="row">
+        <h2 style="color: aliceblue;">Trending</h2>
+        <div class="row-poster">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (1).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (2).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (3).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\FastX_Poster ARt.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters"> 
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters">
+        </div>
+    </div>
+    <div class="row">
+        <h2 style="color: aliceblue;">Top Rated</h2>
+        <div class="row-poster">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (1).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (2).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (3).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\FastX_Poster ARt.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters"> 
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters">
+        </div>
+    </div>
+    <div class="row">
+        <h2 style="color: aliceblue;">Action Movies</h2>
+        <div class="row-poster">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (1).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (2).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (3).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\FastX_Poster ARt.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters"> 
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters">
+        </div>
+    </div>
+    <div cla
+    ss="row">
+        <h2 style="color: aliceblue;">Comedy Movies</h2>
+        <div class="row-poster">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (1).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (2).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (3).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\FastX_Poster ARt.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters"> 
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters">
+        </div>
+    </div>
+    <div class="row">
+        <h2 style="color: aliceblue;">Horror Movies</h2>
+        <div class="row-poster">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (1).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (2).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (3).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\FastX_Poster ARt.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters"> 
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters">
+        </div>
+    </div>
+    <div class="row">
+        <h2 style="color: aliceblue;">Romantic Movies</h2>
+        <div class="row-poster">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (1).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (2).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download (3).jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\download.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\FastX_Poster ARt.jpg" class="row-posters">
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters"> 
+            <img src="c:\Users\HALITH KASIM\OneDrive\Desktop\image\images.jpg" class="row-posters">
+        </div>
+    </div>
+    <div>
+        <h4 style="color: antiquewhite;" class="dx">Created By Mohammed Halith Kasim</h4>
+    </div>
+    <marque class="text">Thank for visiting</marque>
+</body>
+</html>
